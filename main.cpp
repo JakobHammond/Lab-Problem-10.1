@@ -20,7 +20,7 @@ int count_letters(string str){
         string first;
         first = str.substr(str.length() - i);
         if(first.front() <= 57);
-        else if((first.front() <= 90 && first.front() >= 49) || (first.front() <= 122 && first.front() >= 81) && first.front()){
+        else if((first.front() <= 90 && first.front() >= 49) || (first.front() <= 122 && first.front() >= 81)){
             letters++;
         }
     }
